@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+#portada{
+    width: 100%;
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+}
+#logo{
+    display: block;
+    height: 150px;
+    width: 150px;
+    top: 600px;
+    right: 200px;
+    margin-top: 1vh;
+    margin-right: 0vh;
+}
+.titulo{
+    font-size: 50px;
+}
+.Links{
+    list-style: none;
+}
+nav> a{
+    position: relative;    
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav> a:hover{
+    background-color: darkseagreen;
+}
+.titulo2{
+    text-align: center;
+    background: white;
+    color: black;
+    border: 3px solid;
+    }
+nav{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 6vh;
+    width: 100vw;
+
+}
+main> p{
+    margin-bottom: 20px
+}
+#portada2{
+    width: 100%;
+    margin-top: 0%;
+    height: 60vh;
+}
+div> p{
+    position: relative;
+    left: 40px;
+    margin: 20px;
+    }
+#mail{
+    display: inline;
+}

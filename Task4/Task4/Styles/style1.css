@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+#portada{
+    width: 100%;
+    margin-top: 0px;
+}
+#logo{
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 650px;
+    right: 200px;
+}
+.titulo{
+    position: absolute;
+    font-size: 50px;
+}
+.Links{
+    list-style: none;
+}
+a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.titulo2{
+    text-align: center;
+    background: black;
+    color: aliceblue
+        
+    
+}
+nav{
+    display: block;
+    float: left;
+}
+main{
+    display: block;
+    margin-left: 170px;
+    margin-top: 6vh;
+}
+main> p{
+    margin-bottom: 20px
+}
+#portada2{
+    display: none;
+    position: absolute;
+}
+#mail{
+    display: inline;
+}
